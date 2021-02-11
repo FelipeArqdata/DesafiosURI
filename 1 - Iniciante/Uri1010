@@ -1,0 +1,8 @@
+codpeca1 = int(input())
+npeca1 = int(input())
+vpeca1 = float(input())
+codpeca2 = int(input())
+npeca2 = int(input())
+vpeca2 = float(input())
+total = (npeca1*vpeca1)+(npeca2*vpeca2)
+print('VALOR A PAGAR : R$ {:.2f}'.format(total))
